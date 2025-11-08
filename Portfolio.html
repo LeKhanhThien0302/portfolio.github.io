@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Lê Khánh Thiện</title>
+  <!-- Liên kết đến file CSS -->
+  <link rel="stylesheet" href="Portfolio.css" />
+</head>
+
+<body>
+
+  <!-- Thanh điều hướng trên cùng -->
+<!-- ==== HEADER ==== -->
+<header class="navbar">
+  <div class="profile">
+    <img src="Screenshot 2025-10-12 112421.png" alt="avatar" class="avatar" />
+    <div class="info">
+      <h2 class="name">Lê Khánh Thiện</h2>
+      <p class="role">Backend Developer</p>
+    </div>
+  </div>
+
+  <nav class="nav-links">
+    <a href="#about">Giới thiệu</a>
+    <a href="#skills">Kỹ năng</a>
+    <a href="#certificates">Chứng chỉ</a>
+    <a href="#projects">Dự án</a>
+    <a href="#contact">Liên hệ</a>
+  </nav>
+</header>
+
+<!-- ==== BANNER ==== -->
+<section class="banner">
+  <div class="banner-content">
+    <h1>Xin chào, tôi là <span>Lê Khánh Thiện</span> </h1>
+    <p>Backend Developer tương lai — Đam mê công nghệ và sáng tạo.</p>
+    <p>
+          Tôi là một nhà phát triển web yêu thích học hỏi công nghệ mới và tạo ra các sản phẩm sáng tạo.
+          Luôn tìm kiếm cơ hội để phát triển kỹ năng và đóng góp vào những dự án thú vị.
+          </p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ==== ABOUT ==== -->
+  <!-- Phần giới thiệu bản thân -->
+  <section id="about" class="about-section">
+    <h2>Giới thiệu về tôi</h2>
+     <div class="about-container">
+      <!-- Ảnh và đoạn giới thiệu -->
+      <div class="about-left">
+        <img src="z7130239385614_68d202d78bc36c812db93e01463d5ec7.jpg" alt="Ảnh cá nhân" class="about-avatar" />
+      </div>
+
+      <!-- Thông tin cá nhân -->
+      <div class="about-right">
+        <div class="info-grid">
+          <!-- Mỗi info-card là 1 dòng thông tin -->
+          <div class="info-card">
+            <div class="info-icon">👤</div>
+            <div class="info-content">
+              <span class="info-label">Họ và tên</span>
+              <span class="info-value">Lê Khánh Thiện</span>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">🎂</div>
+            <div class="info-content">
+              <span class="info-label">Ngày sinh</span>
+              <span class="info-value">03/02/2005</span>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">📱</div>
+            <div class="info-content">
+              <span class="info-label">Số điện thoại</span>
+              <span class="info-value">0912 345 678</span>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">📧</div>
+            <div class="info-content">
+              <span class="info-label">Email</span>
+              <span class="info-value">thienle2005@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">📍</div>
+            <div class="info-content">
+              <span class="info-label">Địa chỉ</span>
+              <span class="info-value">Tân Trụ - Long An</span>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-icon">🎓</div>
+            <div class="info-content">
+              <span class="info-label">Học vấn</span>
+              <span class="info-value">CNTT - ĐH GTVT TP.HCM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ==== HOBBIES ==== -->
+<!-- ==== SỞ THÍCH ==== -->
+<section id="hobbies" class="hobby-section">
+  <h2>Sở thích</h2>
+
+  <div class="hobby-content">
+    <img src="https://assets.manutd.com/AssetPicker/images/0/0/10/126/687707/Legends-Profile_Cristiano-Ronaldo1523460877263.jpg" 
+         alt="CR7" class="hobby-photo">
+    <p class="hobby-quote">
+      "CR7 là người truyền cảm hứng cho tôi trong việc theo đuổi đam mê và không ngừng nỗ lực."
+    </p>
+  </div>
+
+  <div class="hobby-grid">
+    <div class="hobby-card" data-img="anh2.png">
+      <div class="hobby-icon">🎮</div>
+      <h3>Gaming</h3>
+      <p>Chơi game giải trí và chiến thuật</p>
+    </div>
+
+    <div class="hobby-card" data-img="z7130304235559_3cd9b0cc1a66b4c256cd7d700792ec5d.jpg">
+      <div class="hobby-icon">⚽</div>
+      <h3>Thể thao</h3>
+      <p>Đá bóng, rèn luyện sức khỏe</p>
+    </div>
+
+    <div class="hobby-card" data-img="z7130346329301_f697eb238a33e98631db007cd13cf44f.jpg">
+      <div class="hobby-icon">🚀</div>
+      <h3>Backend Dev</h3>
+      <p>Học Backend và phát triển dự án cá nhân</p>
+    </div>
+
+    <div class="hobby-card" data-img="z7130346319967_3657cd07f5908ac167a2f39b2de3a24d.jpg">
+      <div class="hobby-icon">🎵</div>
+      <h3>Nghe nhạc</h3>
+      <p>Tận hưởng giai điệu giúp thư giãn và sáng tạo</p>
+    </div>
+
+    <div class="hobby-card" data-img="z7130318895983_0d4a7d606ee72a2618acefbc8a732721.jpg">
+      <div class="hobby-icon">🌍</div>
+      <h3>Khám phá</h3>
+      <p>Đi du lịch, tìm hiểu văn hóa và cảnh đẹp</p>
+    </div>
+  </div>
+
+  <!-- Ảnh hiển thị khi hover -->
+  <div class="hobby-hover-image" id="hoverImage"></div>
+</section>
+
+
+  <!-- ==== CAREER GOAL ==== -->
+<section id="career" class="career-section">
+  <h2>Mục tiêu nghề nghiệp</h2>
+
+  <div class="career-content">
+    <div class="career-text">
+        Tôi đang hướng tới vị trí <strong>Backend Developer</strong> chuyên nghiệp,
+        có thể xây dựng và tối ưu hệ thống web với hiệu năng cao, bảo mật tốt
+        và khả năng mở rộng linh hoạt.
+        Trong 1–2 năm tới, tôi muốn tích lũy thêm kinh nghiệm thực tế,
+        học sâu về Node.js, Django và cơ sở dữ liệu,
+        đồng thời tham gia vào các dự án quy mô lớn để nâng cao kỹ năng teamwork và tư duy hệ thống.
+      </p>
+    </div>
+
+    <div class="career-image">
+      <img src="https://developerbooklet.com/wp-content/uploads/2023/11/Backend-Web-Development.jpg" 
+           alt="Backend Developer" />
+    </div>
+  </div>
+</section>
+<!-- ==== SKILLS ==== -->
+<section id="skills" class="skills-section">
+  <h2>Kỹ năng</h2>
+  <p>Dưới đây là các kỹ năng chính của tôi trong lập trình và phát triển web</p>
+
+  <div class="skills-main-container">
+    
+    <!-- ẢNH MINH HỌA BÊN TRÁI -->
+    <div class="skills-image">
+      <img src="z7110667038013_9b7c0ac593417f0637bf6fe9ddbef5d9-removebg-preview.png" 
+           alt="Kỹ năng" class="section-photo" />
+    </div>
+
+    <!-- SKILLS BÊN PHẢI -->
+    <div class="skills-wrapper">
+      
+      <!-- BACKEND SKILLS -->
+      <div class="skill-category">
+        <h3 class="category-title">
+          <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M5 2V0H0v5h2v6H0v5h5v-2h6v2h5v-5h-2V5h2V0h-5v2H5zm6 1v7h1v5h-2v-3H6v3H4v-5h1V3h1V1h4v2h1z"/>
+          </svg>
+          Backend Development
+        </h3>
+        
+        <div class="skills-grid">
+          <div class="skill-box">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="skill-icon" alt="Python" />
+            <h3>Python</h3>
+            <p>Thông thạo</p>
+          </div>
+
+          <div class="skill-box">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" class="skill-icon" alt="Django" style="filter: invert(1);" />
+            <h3>Django</h3>
+            <p>Framework chính</p>
+          </div>
+
+          <div class="skill-box">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" class="skill-icon" alt="SQL" />
+            <h3>SQL Server</h3>
+            <p>Cơ bản - Trung bình</p>
+          </div>
+
+          <div class="skill-box">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" class="skill-icon" alt="PostgreSQL" />
+            <h3>PostgreSQL</h3>
+            <p>Cơ bản</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- FRONTEND SKILLS -->
+      <div class="skill-category">
+        <h3 class="category-title">
+          <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5v-13zM1.5 1a.5.5 0 0 0-.5.5V5h4V1H1.5zM5 6H1v4h4V6zm1 4h4V6H6v4zm-1 1H1v3.5a.5.5 0 0 0 .5.5H5v-4zm1 0v4h4v-4H6zm5 0v4h3.5a.5.5 0 0 0 .5-.5V11h-4zm0-1h4V6h-4v4zm0-5h4V1.5a.5.5 0 0 0-.5-.5H11v4zm-1 0V1H6v4h4z"/>
+          </svg>
+          Frontend Development
+        </h3>
+        
+        <div class="skills-grid">
+          <div class="skill-box">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" class="skill-icon" alt="HTML" />
+            <h3>HTML5</h3>
+            <p>Khá tốt</p>
+          </div>
+
+          <div class="skill-box">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" class="skill-icon" alt="CSS" />
+            <h3>CSS3</h3>
+            <p>Khá tốt</p>
+          </div>
+
+          <div class="skill-box">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" class="skill-icon" alt="JavaScript" />
+            <h3>JavaScript</h3>
+            <p>Trung bình - Khá</p>
+          </div>
+
+          <div class="skill-box">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" class="skill-icon" alt="Bootstrap" />
+            <h3>Bootstrap</h3>
+            <p>Cơ bản</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- OTHER SKILLS -->
+      <div class="skill-category">
+        <h3 class="category-title">
+          <svg width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319z"/>
+          </svg>
+          Kỹ năng khác
+        </h3>
+        
+        <div class="skills-grid">
+          <div class="skill-box">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" class="skill-icon" alt="Git" />
+            <h3>Git & GitHub</h3>
+            <p>Quản lý version</p>
+          </div>
+
+          <div class="skill-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/330/330425.png" class="skill-icon" alt="English" />
+            <h3>Tiếng Anh</h3>
+            <p>Giao tiếp cơ bản</p>
+          </div>
+
+          <div class="skill-box">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" class="skill-icon" alt="VS Code" />
+            <h3>VS Code</h3>
+            <p>Editor chính</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <!-- ==== CERTIFICATES ==== -->
+  <section id="certificates" class="cert-section">
+    <h2>Chứng chỉ</h2>
+    <div class="cert-grid">
+      <div class="cert-item">
+        <img src="https://fullstack.edu.vn/assets/images/f8_avatar.png" alt="F8" />
+        <h3>F8 - Học lập trình Web</h3>
+        <p>Tôi đã hoàn thành các khóa học HTML, CSS và JavaScript (cơ bản & nâng cao) trên nền tảng F8, đồng thời học thêm Node.js cơ bản để mở rộng kỹ năng backend. </p>
+      </div>
+
+      <div class="cert-item">
+        <img src="https://i.pcmag.com/imagery/reviews/01tPXClg2WjLamQzScplH3y-15.fit_scale.size_760x427.v1627670281.png" alt="FreeCodeCamp" />
+        <h3>FreeCodeCamp</h3>
+        <p>Hoàn thành chứng chỉ Tính toán khoa học với Python</p>
+      </div>
+    </div>
+  </section>
+
+  
+<!-- ==== PROJECTS ==== -->
+<section id="projects" class="projects-section">
+  <h2>Dự án cá nhân</h2>
+
+  <div class="project-container">
+    
+    <!-- Dự án 1 -->
+    <div class="project-card">
+      <div class="project-images">
+        <img src="Screenshot 2025-02-04 002607.png" alt="Web bán phụ kiện" class="active" />
+        <img src="Screenshot 2025-01-18 022606.png" alt="Web đặt sân" />
+        <button class="img-nav prev" onclick="changeImage(0, -1)">❮</button>
+        <button class="img-nav next" onclick="changeImage(0, 1)">❯</button>
+        <div class="img-dots">
+          <span class="dot active" onclick="setImage(0, 0)"></span>
+          <span class="dot" onclick="setImage(0, 1)"></span>
+        </div>
+      </div>
+      
+      <div class="project-info">
+        <h3>Web Đặt Sân Và Bán Phụ Kiện</h3>
+        <p>Dự án thương mại điện tử đơn giản giúp người dùng đặt sân, quản lý sản phẩm và đơn hàng trực tuyến.</p>
+        <p>Tôi có nhiệm vụ làm backend với Django, xây dựng API cho ứng dụng và 1 ít fontend </p>
+        <p><b>Công nghệ:</b> HTML, CSS, Django ,JavaScript, SQL Server</p>
+        
+        <div class="project-links">
+          <a href="https://github.com/hoaian1377/WebBookingBadminton" target="_blank" class="project-btn github-btn">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            GitHub
+          </a>
+          <button class="project-btn demo-btn" disabled style="opacity: 0.5; cursor: not-allowed;">
+            Demo
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dự án 2 -->
+    <div class="project-card">
+      <div class="project-images">
+        <img src="Screenshot 2025-04-22 105638.png" alt="Hệ thống bãi xe" class="active" />
+        <div class="img-dots">
+          <span class="dot active"></span>
+        </div>
+      </div>
+      
+      <div class="project-info">
+        <h3>Hệ Thống Bãi Xe Tự Động</h3>
+        <p>Quản lý xe vào/ra thông minh, kết hợp cảm biến, camera và sơ đồ bãi đỗ trực quan.</p>
+        <p>Tôi phụ trách phần backend sử dụng Django để xây dựng API và xử lý logic quản lý bãi xe.</p>
+        <p><b>Công nghệ:</b> Django, CV2, HTML, CSS và JavaScript, SQL Server</p>
+        
+        <div class="project-links">
+          <a href="https://github.com/hoaian1377/parking_management_system" target="_blank" class="project-btn github-btn">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            GitHub
+          </a>
+          <button class="project-btn demo-btn" disabled style="opacity: 0.5; cursor: not-allowed;">
+            Demo
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ==== CONTACT ==== -->
+<section id="contact" class="contact-section">
+  <h2 >Liên hệ</h2>
+  <p>Nếu bạn muốn kết nối với tôi, đừng ngần ngại gửi email cho tôi!</p>
+
+  <div class="contact-wrapper">
+    <!-- AVATAR -->
+    <div class="contact-avatar">
+      <img src="z7110736683479_6638859dc8b0c5289c711b7352c2d494.jpg" alt="avatar" class="avatar" />
+    </div>
+
+    <!-- THÔNG TIN LIÊN HỆ -->
+    <div class="contact-info-wrapper">
+      <div class="email-box">
+        <p>Email liên hệ</p>
+        <a href="mailto:thienlk2465@ut.edu.vn" class="email-link">thienlk2465@ut.edu.vn</a>
+      </div>
+
+      <div class="social-links">
+        <a href="https://facebook.com/LeKhanhThien0302" target="_blank" title="Facebook">
+          <div class="social-icon-wrapper">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" />
+          </div>
+          Facebook
+        </a>
+
+        <a href="https://www.tiktok.com/@lekhanhthien" target="_blank" title="TikTok">
+          <div class="social-icon-wrapper">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok" />
+          </div>
+          TikTok
+        </a>
+
+        <a href="https://github.com/LeKhanhThien0302" target="_blank" title="GitHub">
+          <div class="social-icon-wrapper">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" />
+          </div>
+          GitHub
+        </a>
+
+        <a href="https://zalo.me/yourzalo" target="_blank" title="Zalo">
+          <div class="social-icon-wrapper">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Icon_of_Zalo.svg" alt="Zalo" />
+          </div>
+          Zalo
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- ==== FOOTER ==== -->
+  <footer>
+    <p>© 2025 Lê Khánh Thiện</p>
+  </footer>
+
+  <!-- File JS -->
+  <script src="Portfolio.js"></script>
+
+</body>
+</html>
